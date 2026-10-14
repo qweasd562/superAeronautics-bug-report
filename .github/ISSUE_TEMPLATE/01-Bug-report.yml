@@ -1,8 +1,6 @@
 name: Bug report
 description: Report a crash or bug.
 title: "[Bug] "
-labels:
-  - "project:sounds"
 type: Bug
 body:
   - type: markdown
