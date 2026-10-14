@@ -1,0 +1,25 @@
+name: Mod suggestion
+description: Suggest mods to add to the modpack.
+title: "[Suggestion] "
+type: Suggestion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest mods to add to the modpack.
+
+body:
+- type: textarea
+  id: suggestion
+  attributes:
+    label: Suggested mod
+    description: "Type mod name, a link to it, and why we should add it."
+    placeholder: |
+      Mod name
+      https://modrinth.com/mod/mod_name
+      why we should add it
+    render: bash
+  validations:
+    required: true
+
+    
